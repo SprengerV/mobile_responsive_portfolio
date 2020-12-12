@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design for Bootstrap</title>
+  <title>SprengerV</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
@@ -22,7 +25,7 @@
       background-color:#94536d !important;
     }
     body{
-      background-color: #f6e0a2;
+      background-color: #b4b4b4;
     }
    
   </style>
@@ -31,10 +34,10 @@
 
   <!-- Start your project here-->
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+  <nav class="navbar navbar-expand-md navbar-dark default-color-dark fixed-top">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand align-self-end" href="index.html">Sprenger<span style="color: #b2ba1a; font-size: 48px;">V</span></a>
 
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -43,46 +46,68 @@
     </button>
 
     <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="basicExampleNav">
+    <div role="menu" class="collapse navbar-collapse d-md-flex flex-md-row-reverse" id="basicExampleNav">
 
       <!-- Links -->
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-md-0 col-md-4 d-flex justify-content-end">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <a class="nav-link" href="index.html">About
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
-
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-
       </ul>
-      <!-- Links -->
 
-      <form class="form-inline">
-        <div class="md-form my-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        </div>
-      </form>
     </div>
-    <!-- Collapsible content -->
+    <!-- /Collapsible content -->
 
   </nav>
   <!--/.Navbar-->
+
+  <!-- Content -->
+  <!-- Card -->
+  <article class="card card-cascade narrower">
+
+    <!-- Card image -->
+    <div class="view view-cascade overlay">
+      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
+        <div class="mask rgba-white-slight"></div>
+    </div>
+
+      <!-- Title -->
+      <h2 class="card-header-title">Ally Cook</h2>
+      <!-- Subtitle -->
+      <h5 class="mb-0 pb-3 pt-2">Follow me</h5>
+
+    <!-- Card content -->
+    <div class="card-body card-body-cascade text-center">
+
+      <!-- Text -->
+      <p class="card-text">SprengerV is your number one source for custom Nerf blasters. Our eBay store is stocked with new and used blasters that are just waiting to be modified</p>
+
+    </div>
+
+  </article>
+  <!-- /Card -->
+  <!-- /Content -->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small default-color-dark fixed-bottom">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Powered by
+      <a type="link" href="https://SprengerV.com/"> SprengerV.com</a>
+    </div>
+    <!-- /Copyright -->
+
+  </footer>
+  <!-- /Footer -->
+
   <!-- End your project here-->
 
   <!-- jQuery -->

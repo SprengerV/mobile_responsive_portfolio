@@ -1,0 +1,18 @@
+.nav-link {
+    text-align: right;
+}
+
+.navbar-brand {
+    font-family: 'Bangers', cursive;
+    font-weight: bold;
+    font-size: 42px;
+    padding-bottom: 0px;
+    margin-bottom: -14px;
+    line-height: 42px;
+}
+
+.card {
+    margin: 21px;
+    margin-top: 77px;
+    margin-bottom: 77px;
+}
