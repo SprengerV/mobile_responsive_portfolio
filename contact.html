@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/penticon.bmp" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
@@ -31,38 +31,147 @@
   </style>
 </head>
 <body>
-    <!-- Card Wider -->
-<div class="card card-cascade wider">
 
-    <!-- Card image -->
-    <div class="view view-cascade overlay">
-      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
-      <a href="#!">
-        <div class="mask rgba-white-slight"></div>
-      </a>
+  <!-- Start your project here-->
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-dark default-color-dark fixed-top">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand align-self-end" href="index.html">Sprenger<span style="color: #b2ba1a; font-size: 48px;">V</span></a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div role="menu" class="collapse navbar-collapse d-md-flex flex-md-row-reverse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-md-0 col-md-4 d-flex justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+      </ul>
+
     </div>
-  
-    <!-- Card content -->
-    <div class="card-body card-body-cascade text-center">
-  
-      <!-- Title -->
-      <h4 class="card-title"><strong>Alison Belmont</strong></h4>
-      <!-- Subtitle -->
-      <h5 class="blue-text pb-2"><strong>Graffiti Artist</strong></h5>
-      <!-- Text -->
-      <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
-        laudantium, totam rem aperiam. </p>
-  
-      <!-- Linkedin -->
-      <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-      <!-- Twitter -->
-      <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-      <!-- Dribbble -->
-      <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
-  
+    <!-- /Collapsible content -->
+
+  </nav>
+  <!--/.Navbar-->
+
+  <!-- Content -->
+  <!-- Card -->
+  <main class="card card-body">
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Use this form to reach us!</p>
+
+      <div class="row">
+
+          <!--Grid column-->
+          <div class="col mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="name" name="name" class="form-control">
+                              <label for="name" class="">Your name</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+
+                      <!--Grid column-->
+                      <div class="col-md-6">
+                          <div class="md-form mb-0">
+                              <input type="text" id="email" name="email" class="form-control">
+                              <label for="email" class="">Your email</label>
+                          </div>
+                      </div>
+                      <!--Grid column-->
+
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="md-form mb-0">
+                              <input type="text" id="subject" name="subject" class="form-control">
+                              <label for="subject" class="">Subject</label>
+                          </div>
+                      </div>
+                  </div>
+                  <!--Grid row-->
+
+                  <!--Grid row-->
+                  <div class="row">
+
+                      <!--Grid column-->
+                      <div class="col-md-12">
+
+                          <div class="md-form">
+                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                              <label for="message">Your message</label>
+                          </div>
+
+                      </div>
+                  </div>
+                  <!--Grid row-->
+
+              </form>
+
+              <div class="text-center text-md-right">
+                <a class="btn btn-default btn-outline"  href="javascript:void(0)">Send</a>
+              </div>
+              <div class="status"></div>
+          </div>
+          <!--Grid column-->
+  </main>  
+  <!-- Card -->
+  <!-- /Content -->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small default-color-dark fixed-bottom">
+
+    <!-- Copyright -->
+    <div type="text" class="footer-copyright text-center py-3">Powered by
+      <a type="link" href="https://SprengerV.com/"> SprengerV.com</a>
     </div>
-  
-  </div>
-  <!-- Card Wider -->
+    <!-- /Copyright -->
+
+  </footer>
+  <!-- /Footer -->
+
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
 </body>
 </html>
