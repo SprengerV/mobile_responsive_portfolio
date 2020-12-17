@@ -1,0 +1,1 @@
+This project sets out to create a webpage from scratch, styled with Bootstrap. I chose to use Material Design for Bootstrap to set the page apart from many others. The page was made to be mobile responsive by utilizing the Bootstrap classes in conjunction with their grid system.
